@@ -509,14 +509,14 @@ bike_share %>%
 ![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic1.png)
 
 ```{r}
-# The number of rides taken by customers is significanly greater in comparison to that of subscribers. This suggests that customers tend to utilize the ride-sharing service more frequenty than subscribers.
+# The number of rides taken by customers is significantly greater in comparison to that of subscribers. This suggests that customers tend to utilize the ride-sharing service more frequenty than subscribers.
 ```
 
  
 
 
 ```{r}
-# This code calculates the average ride duration by user type and day of the week, and creates a grouped bar plot using ggplot to visualize the results.
+# This code calculates the average ride duration by user type and day of the week and creates a grouped bar plot using ggplot to visualize the results.
 
 bike_share %>%
   mutate(weekday = format(start_time, "%A")) %>%
@@ -532,8 +532,10 @@ bike_share %>%
 
 
 ```
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic2.png)
+
 ```{r}
-# The data indicatetes that customers tend to take longer rides compared to subscribers. Weekdays appear to be busier for customers as their average ride duration is higher during this period , while subscribers' ride duration remains consistent throughout the week. This information can help identify patterns and trends in ride behavior and assist in optimizing the service to better cater to the needs of both customers and subscribers.
+# The data indicates that customers tend to take longer rides compared to subscribers. Weekdays appear to be busier for customers as their average ride duration is higher during this period , while subscribers' ride duration remains consistent throughout the week. This information can help identify patterns and trends in ride behavior and assist in optimizing the service to better cater to the needs of both customers and subscribers.
 ```
 
 
@@ -556,8 +558,10 @@ bike_share %>%
   scale_x_discrete(labels = c("Jan 2019", "Feb 2019", "Mar 2019", "Jan 2020", "Feb 2020", "Mar 2020"))
 
 ```
+
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic3.png)
 ```{r}
-#Bike rides among subscribers far outweighs that of customers. In other words, subscribers are more inclined to use bikes than customers. While the number of bike rides by customers is on the rise, it is still significantly lower than the number of bike rides taken by subscribers.
+#Bike rides among subscribers far outweigh that of customers. In other words, subscribers are more inclined to use bikes than customers. While the number of bike rides by customers is on the rise, it is still significantly lower than the number of bike rides taken by subscribers.
 ```
 
 
@@ -565,7 +569,7 @@ bike_share %>%
 
 
 ```{r}
-#I calculated the total rides for each user type and month, and plots a line graph using ggplot to visualize changes over time.
+#I calculated the total rides for each user type and month, and plot a line graph using ggplot to visualize changes over time.
 
 bike_share %>%
   mutate(month = format(start_time, "%b %Y")) %>%
@@ -583,6 +587,8 @@ bike_share %>%
   scale_x_discrete(labels = c("Jan 2019", "Feb 2019", "Mar 2019", "Jan 2020", "Feb 2020", "Mar 2020"))
 
 ```
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic4.png)
+
 ```{r}
 # The usage of bikes among subscribers far outweighs that of customers. In other words, subscribers are more inclined to use bikes than customers. While the number of bike rides by customers is on the rise, it is still significantly lower than the number of bike rides taken by subscribers. 
 ```
@@ -614,7 +620,7 @@ ggplot(top_stations_customers, aes(x = number_of_rides, y = reorder(start_statio
 
 ```
 
-
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic5.png)
 
 
 ### Top 20 Stations by number of rides booked  for subscribers 
@@ -643,6 +649,8 @@ ggplot(top_stations_subscribers, aes(x = number_of_rides, y = reorder(start_stat
 
 ```
 
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic6.png)
+
 #Total rides of Subscribers vs Customer
 ```{r}
 #I created a bar plot that shows the total number of rides for subscribers and customers. 
@@ -656,6 +664,8 @@ ggplot(bike_share, aes(x = fct_infreq(usertype), fill = usertype)) +
   scale_fill_manual(values = c("skyblue", "orange"))
 
 ```
+
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic7.png)
 
 ```{r}
 # Subscribers have significantly more rides than customers, as shown by the plot. This suggests that subscribers are more frequent riders, while cutomers use the service less frequently. 
