@@ -2,7 +2,7 @@
 
 ## Case-Study-Cyclistic-Bike-Share-
 
-![](pic.png)
+![](Cyclistic_Bike_Share.png)
 
 
 ## Introduction
