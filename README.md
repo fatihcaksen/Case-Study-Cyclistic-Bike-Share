@@ -4,7 +4,7 @@
 
 
 ## Introduction
-The Cyclistic Bike Share case study revolves around an imaginary company named Cyclistic, located in Chicago.  As a junior data analyst, my responsibility is to examine Cyclistic’s data from the first three months of 2019 and 2020.  The data was collected from a real company as Divvy. 
+The Cyclistic Bike Share case study revolves around an imaginary company named Cyclistic, located in Chicago.  As a junior data analyst, my responsibility is to examine Cyclistic’s data from the first three months of 2019 and 2020.  The data was collected from a real company [Divvy.](https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 ## About the company
 In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime. 
@@ -31,41 +31,41 @@ Three questions will guide the future marketing program:
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
 ## Data Source
-The data used for this case study cover rider information from the first three months of 2019 and 2020. This data has been provided by Motivate International Inc. under license and is originally stored in separate CVS files. 
+The data used for this case study cover rider information from the first three months of 2019 and 2020. This data has been provided by Motivate International Inc. under [license](https://ride.divvybikes.com/data-license-agreement) and is originally stored in separate CVS files. 
 
 ## Objective:
 The primary objective is to analyze Cyclisitc bike-sharing data to understand user patterns, ride characteristics, and overall system performance. This information can assist Cyclistic in optimizing its services, improving user experience, and making informed business decisions.
 
 ## Analysis Steps
 
-# Step 1: Data Wrangling
+### Step 1: Data Wrangling
 The data from 2019 and 2020 was combined by aligning column names, removing unnecessary variables, and adjusting data types for consistency.
-# Step 2: Data Cleanup
+### Step 2: Data Cleanup
 The dataset was cleaned to handle missing values, duplicates, and negative ride lengths. Entries associated with quality checks were also removed to ensure data integrity. 
-# Step 3: Descriptive Analysis
+### Step 3: Descriptive Analysis
 Summary statistics were calculated, ride length distribution explored, and user types compared.  Additional columns were added for data, month, day, year, and day of week. 
-# Step 4: Insights and Comparisons
+### Step 4: Insights and Comparisons
 The analysis revealed user behavior insights such as average ride lengths, differences between subscriber and customer users, and variations in ride times across different days of the week. 
 
 ## Key Findings:
 
-# 1.	User Type Comparison:
+### 1.	User Type Comparison:
 •	On average, customers ride for a longer duration compared to subscribers. 
-•	On average, subscribers tend to take a shorter and more consistent rides. 
-# 2.	Day-of-Week Analysis:
-•	On Fridays, Saturdays, and Sundays, customers tend to take a longer rides on average. 
+•	On average, subscribers tend to take shorter and more consistent rides. 
+### 2.	Day-of-Week Analysis:
+•	On Fridays, Saturdays, and Sundays, customers tend to take longer rides on average. 
 •	In general, subscribers tend to take shorter and more consistent rides throughout the week. 
-# 3.	Ride Lengths:
+### 3.	Ride Lengths:
 •	The length of the rides taken by customers varies greatly, with some being exceptionally long. 
 •	The distribution of ride lengths among subscribers is more concentrated than among non-subscribers. 
 
 ## Recommendations
 
-# 1. Customer Engagement Strategies
+### 1. Customer Engagement Strategies
 After analyzing the data, it was found that customers tend to use Cyclistic bikes for longer rides compared to subscribers. To increase customer engagement and loyalty, Cyclistic should consider implementing targeted marketing strategies like promotional offers or rewards programs. These strategies can encourage more frequent usage and longer rides.  
-# 2. Operational Optimization on High Traffic Days
+### 2. Operational Optimization on High Traffic Days
 The analysis has shown that ride lengths differ on different days of the week. Cyclistic could enhance its operational processes, such as bike distribution and station maintenance, on days when there is more user activity. This could help to enhance to overall efficiency of the service and improve customer satisfaction. 
-# 3. Technology Enhancements for Subscriber Experience
+### 3. Technology Enhancements for Subscriber Experience
 A considerable number of users are subscribers, and they usually undertake shorter rides. To improve the overall experience of subscribers and encourage more frequent usage, Cyclistic could prioritize technologies upgrades such as a more advanced mobile app or additional features. 
 
 ## Conclusion
