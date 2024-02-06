@@ -20,7 +20,7 @@ library(knitr)
 ```
 
 
-![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic1.png)
+
 ### Step 1: Load Data
 
 ```{r}
@@ -506,10 +506,8 @@ bike_share %>%
   theme(axis.text.x = element_text(angle = 60, hjust = 1))
 
 ```
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic1.png)
 
-![]("images/Pic1.png)
-
-![]("images/Pic1.png)
 ```{r}
 # The number of rides taken by customers is significanly greater in comparison to that of subscribers. This suggests that customers tend to utilize the ride-sharing service more frequenty than subscribers.
 ```
