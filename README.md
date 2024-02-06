@@ -1,8 +1,8 @@
-### Case Study = Cyclistic Bike Share 
+# Case Study = Cyclistic Bike Share 
 
 ## Case-Study-Cyclistic-Bike-Share-
 
-[alt text]
+[alt text]https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/Cyclistic_Bike_Share.png
 
 
 ## Introduction
