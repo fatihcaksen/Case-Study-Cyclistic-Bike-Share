@@ -665,7 +665,7 @@ ggplot(bike_share, aes(x = fct_infreq(usertype), fill = usertype)) +
 
 ```
 
-![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic7.png)
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/pic7.png)
 
 
 ```{r}
