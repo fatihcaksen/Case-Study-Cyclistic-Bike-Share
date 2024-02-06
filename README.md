@@ -55,12 +55,17 @@ The analysis revealed user behavior insights such as average ride lengths, diffe
 
 ### 1.	User Type Comparison:
 •	On average, customers ride for a longer duration compared to subscribers. 
+
 •	On average, subscribers tend to take shorter and more consistent rides. 
+
 ### 2.	Day-of-Week Analysis:
 •	On Fridays, Saturdays, and Sundays, customers tend to take longer rides on average. 
+
 •	In general, subscribers tend to take shorter and more consistent rides throughout the week. 
+
 ### 3.	Ride Lengths:
 •	The length of the rides taken by customers varies greatly, with some being exceptionally long. 
+
 •	The distribution of ride lengths among subscribers is more concentrated than among non-subscribers. 
 
 ## Recommendations
