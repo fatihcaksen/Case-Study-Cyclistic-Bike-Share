@@ -19,7 +19,7 @@ library(knitr)
 
 ```
 
-# Step 1: Load Data
+### Step 1: Load Data
 
 ```{r}
 divvy_2019 <- read.csv("C:/Users/Fatih/Desktop/Final_Project/DataSets/Divvy_2019_Q1.csv")
@@ -27,19 +27,28 @@ divvy_2020 <- read.csv("C:/Users/Fatih/Desktop/Final_Project/DataSets/Divvy_2020
 ```
 
 
-# Step 2: Wrangle Data and Combine into a Single File
+### Step 2: Wrangle Data and Combine into a Single File
 
-# Compare Column Names Each of the Files
+#### Compare Column Names Each of the Files
 
 ```{r}
 colnames(divvy_2019)
-# [1] "trip_id"           "start_time"        "end_time"          "bikeid"           
- [5] "tripduration"      "from_station_id"   "from_station_name" "to_station_id"    
- [9] "to_station_name"   "usertype"          "gender"            "birthyear"        
+##  [1] "trip_id"           "start_time"        "end_time"         
+##  [4] "bikeid"            "tripduration"      "from_station_id"  
+##  [7] "from_station_name" "to_station_id"     "to_station_name"  
+## [10] "usertype"          "gender"            "birthyear"
+        
 ```
 
 ```{r}
 colnames(divvy_2020)
+##  [1] "ride_id"            "rideable_type"      "started_at"        
+##  [4] "ended_at"           "start_station_name" "start_station_id"  
+##  [7] "end_station_name"   "end_station_id"     "start_lat"         
+## [10] "start_lng"          "end_lat"            "end_lng"           
+## [13] "member_casual"      "ride_length"        "ride_length_in_min"
+## [16] "day_of_week"
+
 ```
 
 #Rename Columns for Consistency 
