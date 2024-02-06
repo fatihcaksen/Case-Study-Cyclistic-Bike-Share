@@ -33,6 +33,9 @@ divvy_2020 <- read.csv("C:/Users/Fatih/Desktop/Final_Project/DataSets/Divvy_2020
 
 ```{r}
 colnames(divvy_2019)
+# [1] "trip_id"           "start_time"        "end_time"          "bikeid"           
+ [5] "tripduration"      "from_station_id"   "from_station_name" "to_station_id"    
+ [9] "to_station_name"   "usertype"          "gender"            "birthyear"        
 ```
 
 ```{r}
