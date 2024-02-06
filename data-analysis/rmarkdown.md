@@ -244,7 +244,7 @@ summary(combined_data) # Summary of the Combined Data Frame
 ##                     NA's   :1
 
 ```
-#### Step 3: Clean Up and Add Data to Prepare for Analysis
+### Step 3: Clean Up and Add Data to Prepare for Analysis
 
 #### Remove NA and Duplicate Data
 
@@ -344,7 +344,7 @@ combined_data <- combined_data[combined_data$ride_length >= 0, ]
 bike_share <- combined_data[!(combined_data$start_station_name == "HQ QR" | combined_data$ride_length<0),]
 ```
 
-#### Step 4: Conduct Descriptive Analysis
+### Step 4: Conduct Descriptive Analysis
 #### Summary Statistics for Bike Share Data
 
 ```{r}
@@ -485,7 +485,7 @@ bike_share %>%
 options(scipen=999)
 ```
 
-#### STEP 5: Visualizations
+### STEP 5: Visualizations
 
 ```{r}
 
