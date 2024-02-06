@@ -2,7 +2,7 @@
 
 ## Case-Study-Cyclistic-Bike-Share-
 
-![Alt text](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/raw/main/images/Cyclistic_Bike_Share.png)
+![Cyclistic Bike Share](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/raw/main/images/Cyclistic_Bike_Share.png)
 
 
 
