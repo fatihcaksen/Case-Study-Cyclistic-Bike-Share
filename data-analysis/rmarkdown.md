@@ -667,6 +667,7 @@ ggplot(bike_share, aes(x = fct_infreq(usertype), fill = usertype)) +
 
 ![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic7.png)
 
+
 ```{r}
 # Subscribers have significantly more rides than customers, as shown by the plot. This suggests that subscribers are more frequent riders, while cutomers use the service less frequently. 
 ```
