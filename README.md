@@ -2,9 +2,7 @@
 
 ## Case-Study-Cyclistic-Bike-Share-
 
-![]("images/Cyclistics_Bike_Share.png)
 
-![]("images/Cyclistics_Bike_Share.png)
 ![]("images/Cyclistic_Bike_Share.png)
 
 
