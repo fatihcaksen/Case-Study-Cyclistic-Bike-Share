@@ -19,6 +19,8 @@ library(knitr)
 
 ```
 
+
+![](https://github.com/fatihcaksen/Case-Study-Cyclistic-Bike-Share/blob/main/%22images/Pic1.png)
 ### Step 1: Load Data
 
 ```{r}
